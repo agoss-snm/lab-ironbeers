@@ -1,0 +1,18 @@
+<div class="col-md-4">
+  <div class="card mb-4 shadow-sm">
+    <img src="{{randomBeer.image_url}}" class="card-img-top" alt="">
+    <div class="card-body">
+      <h5 class="card-title">{{randomBeer.name}}</h5>
+      <p class="card-text">{{randomBeer.description}}</p>
+      <div class="d-flex justify-content-between align-items-center"> Food Pairing
+        <small class="text-muted">
+          {{#each randomBeer.food_pairing}}
+          <li>{{this}}</li>
+          {{/each}}
+        </small>
+      </div>
+      <p>Brewe's Tips</p>
+      {{randomBeer.brewers_tips}}
+    </div>
+  </div>
+</div>

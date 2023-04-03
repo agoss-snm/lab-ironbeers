@@ -5,3 +5,38 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+
+main{
+    display: flex;
+justify-content: center;
+margin-top: 50px;
+}
+
+nav{
+    background-color: #2081c3 !important;
+}
+.nav-link{
+    color:white !important;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    margin-top: 10px;
+}
+
+button >a{
+    color: white;
+}
+
+.card {
+    max-width: 400px;
+    margin: 10px;
+  }
+  .card-img-top {
+    max-height: 300px;
+    object-fit: cover;
+  }
